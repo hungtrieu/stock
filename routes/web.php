@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     // return view('welcome');
-    return redirect('https://hungtrieu.top');
+    return redirect('/admin');
 });
