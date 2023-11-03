@@ -1,0 +1,16 @@
+- [x] Stock management
+- Transaction management
+  - [x] CRUD
+  - [] Update porfolio (except pnl)
+    - [x] qty = 1000, cost = 10; qty = 100, cost = 12; totalQty = 1100, totalCost = totalAmount / totalQty
+    - [x] Check type buy / sell
+- [x] Portfolio viewer
+  - [x] Calculate pnl
+    - Get stock price
+    - pnl = quantity*(price - cost)
+- [x] Pwa
+- [x] App logo
+- Deploy
+- Stock Price check
+  - get content and extract from https://www.stockbiz.vn/Stocks/[symbol]/LookupQuote.aspx
+  - Refresh manual function
