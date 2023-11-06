@@ -5,7 +5,7 @@ return [
     'manifest' => [
         'name' => env('APP_NAME', 'My Stock'),
         'short_name' => 'MST',
-        'start_url' => '/',
+        'start_url' => '/admin',
         'background_color' => '#ffffff',
         'theme_color' => '#000000',
         'display' => 'standalone',
@@ -59,9 +59,9 @@ return [
         ],
         'shortcuts' => [
             [
-                'name' => 'Create app',
+                'name' => 'Install MST app',
                 'description' => 'Create app for better customer experience',
-                'url' => '/stock-app',
+                'url' => '/admin',
                 'icons' => [
                     "src" => "/images/icons/icon-72x72.png",
                     "purpose" => "any"
