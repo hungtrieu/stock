@@ -10,7 +10,8 @@
     - pnl = quantity*(price - cost)
 - [x] Pwa
 - [x] App logo
-- Deploy
+- [x] Deploy
+  - Notice: the url pwa should be same origin with website, better if we add absolute path (include https) to urls in laravel pwa config file.
 - Stock Price check
   - get content and extract from https://www.stockbiz.vn/Stocks/[symbol]/LookupQuote.aspx
   - Refresh manual function
